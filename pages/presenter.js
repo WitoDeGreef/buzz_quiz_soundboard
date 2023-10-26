@@ -1,8 +1,8 @@
 import Soundboard from "../components/soundboard";
-import { players } from "./../components/sounds";
+import { presenter } from "./../components/sounds";
 
 export default function Home() {
   return (
-    <Soundboard sounds={players} />
+    <Soundboard sounds={presenter} />
   );
 }

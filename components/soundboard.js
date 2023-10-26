@@ -1,9 +1,8 @@
 import SoundBoardItem from "./soundboard-item";
-import sounds from "./sounds";
 
 const config = require('../next.config');
 
-export default function Soundboard() {
+export default function Soundboard({ sounds }) {
     const basePath = config.basePath + "/audio/";
 
     const toLabel = (filename) => {

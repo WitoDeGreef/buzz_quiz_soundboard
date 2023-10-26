@@ -1,11 +1,10 @@
 // Source: https://www.101soundboards.com/boards/36629-moaning-sounds?sort=funny#sort_filters
-export default [
+const players = [
     "air-biscuit.mp3",
     "america.mp3",
     "arnold.mp3",
     "boing.mp3",
     "boss.mp3",
-    "buzzer.mp3",
     "bye-felicia.mp3",
     "clown.mp3",
     "ill-be-back.mp3",
@@ -27,3 +26,17 @@ export default [
     "yodel.mp3",
     "you-suck.mp3",
 ];
+
+const presenter = [
+    "buzzer.mp3",
+    "controleren-antwoord-spannend.mp3",
+    "fout-antwoord.mp3",
+    "goed-orgel.mp3",
+    "prijzenslagtune.mp3",
+    "quizthema.mp3",
+];
+
+export {
+    players,
+    presenter
+};
