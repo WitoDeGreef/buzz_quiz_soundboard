@@ -1,7 +1,9 @@
 import Sound from "./sound";
 
+const config = require('../next.config');
+
 export default function Soundboard() {
-    const basePath = "/audio/";
+    const basePath = config.basePath + "/audio/";
     const sounds = [
         "air-biscuit.mp3",
         "america.mp3",
