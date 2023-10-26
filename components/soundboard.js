@@ -1,4 +1,4 @@
-import Sound from "./sound";
+import SoundBoardItem from "./soundboard-item";
 import sounds from "./sounds";
 
 const config = require('../next.config');
@@ -24,7 +24,7 @@ export default function Soundboard() {
             <div className="container px-4 px-lg-5 mt-5">
                 <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     {sounds.map(filename => {
-                        return <Sound key={filename} filepath={basePath + filename} name={toName(filename)} label={toLabel(filename)} />
+                        return <SoundBoardItem key={filename} filepath={basePath + filename} name={toName(filename)} label={toLabel(filename)} />
                     })}
                 </div>
             </div>

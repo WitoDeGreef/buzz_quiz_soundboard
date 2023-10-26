@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const config = require('../next.config');
 
-export default function Sound({ filepath, label, name }) {
+export default function SoundBoardItem({ filepath, label, name }) {
     let audio;
 
     useEffect(() => {

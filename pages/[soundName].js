@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 const config = require('../next.config');
 
-export default function Detail() {
+export default function Sound() {
     const router = useRouter();
     const basePath = config.basePath + "/audio/";
     const soundName = router.query.soundName;
