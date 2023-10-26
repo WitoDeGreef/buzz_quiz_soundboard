@@ -2,9 +2,8 @@
 const nextConfig = {
     reactStrictMode: true,
   
-   // Add basePath
-    basePath: '/buzz_quiz_soundboard',
-    assetPrefix: '/buzz_quiz_soundboard',
+    // Add basePath
+    basePath: process.env.NODE_ENV === "production" ? "/buzz_quiz_soundboard" : '',
 };
 
 module.exports = nextConfig;
