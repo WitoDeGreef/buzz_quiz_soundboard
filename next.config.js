@@ -4,6 +4,7 @@ const nextConfig = {
   
    // Add basePath
     basePath: '/buzz_quiz_soundboard',
+    assetPrefix: '/buzz_quiz_soundboard',
 };
 
 module.exports = nextConfig;
