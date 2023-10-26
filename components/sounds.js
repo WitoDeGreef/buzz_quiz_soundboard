@@ -1,0 +1,17 @@
+export default [
+    "air-biscuit.mp3",
+    "america.mp3",
+    "arnold.mp3",
+    "boing.mp3",
+    "boss.mp3",
+    "buzzer.mp3",
+    "bye-felicia.mp3",
+    "ill-be-back.mp3",
+    "moaning.mp3",
+    "punch.mp3",
+    "splat.mp3",
+    "squeaky-toy.mp3",
+    "toy.mp3",
+    "yodel.mp3",
+    "you-suck.mp3",
+];
