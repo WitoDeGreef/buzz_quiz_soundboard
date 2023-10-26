@@ -1,3 +1,4 @@
+// Source: https://www.101soundboards.com/boards/36629-moaning-sounds?sort=funny#sort_filters
 export default [
     "air-biscuit.mp3",
     "america.mp3",
@@ -6,12 +7,23 @@ export default [
     "boss.mp3",
     "buzzer.mp3",
     "bye-felicia.mp3",
+    "clown.mp3",
     "ill-be-back.mp3",
+    "just.mp3",
+    "mario.mp3",
     "moaning.mp3",
+    "my-name-jeff.mp3",
+    "ohhhh.mp3",
     "punch.mp3",
+    "roblox.mp3",
     "splat.mp3",
+    "spongebob.mp3",
     "squeaky-toy.mp3",
+    "thats-what-she-said.mp3",
     "toy.mp3",
+    "wilhelm-scream.mp3",
+    "wow.mp3",
+    "yeet.mp3",
     "yodel.mp3",
     "you-suck.mp3",
 ];
