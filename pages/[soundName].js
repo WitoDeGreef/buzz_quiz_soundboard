@@ -29,7 +29,7 @@ export default function Sound() {
                         <a className="btn" >
                             <img className="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." onClick={playSound} />
                         </a>
-                        <div className="small mb-1"><Link className="btn btn-outline-dark mt-auto" href={config.basePath + "/"} >Terug</Link></div>
+                        <div className="small mb-1"><Link className="btn btn-outline-dark mt-auto" href="/" >Terug</Link></div>
                     </div>
                 </div>
             </div>

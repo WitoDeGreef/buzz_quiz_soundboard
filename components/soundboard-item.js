@@ -29,7 +29,7 @@ export default function SoundBoardItem({ filepath, label, name }) {
                         <i className="bi-volume-up-fill me-1"></i>
                         
                         </a></div>
-                    <div className="text-center"><Link className="btn btn-outline-dark mt-auto" href={config.basePath + "/" +  name} >Open</Link></div>
+                    <div className="text-center"><Link className="btn btn-outline-dark mt-auto" href={name} >Open</Link></div>
                 </div>
             </div>
         </div>
