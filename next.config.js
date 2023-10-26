@@ -12,6 +12,14 @@ const nextConfig = {
    
     // Optional: Change the output directory `out` -> `dist`
     distDir: 'docs',
+
+    
+    images: {
+        loader: 'akamai',
+        path: '',
+      },
+
+    assetPrefix: './',
 }
    
 module.exports = nextConfig
