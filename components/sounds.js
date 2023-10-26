@@ -34,7 +34,7 @@ const presenter = [
     "fout-antwoord.mp3",
     "goed-orgel.mp3",
     "prijzenslagtune.mp3",
-    "quizthema.mp3",
+    "quiztheme.mp3",
 ];
 
 export {
