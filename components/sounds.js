@@ -6,11 +6,13 @@ const players = [
     "boing.mp3",
     "boss.mp3",
     "bye-felicia.mp3",
+    "chicken.mp3",
     "clown.mp3",
+    "duck.mp3",
+    "horse.mp3",
     "ill-be-back.mp3",
     "just.mp3",
     "mario.mp3",
-    "moaning.mp3",
     "my-name-jeff.mp3",
     "ohhhh.mp3",
     "punch.mp3",
@@ -24,7 +26,6 @@ const players = [
     "wow.mp3",
     "yeet.mp3",
     "yodel.mp3",
-    "you-suck.mp3",
 ];
 
 const presenter = [
